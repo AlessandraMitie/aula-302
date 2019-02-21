@@ -1,0 +1,38 @@
+dir()
+-> função que mostra todos os métodos que podem ser usados com o objeto
+
+método (é uma função) pronto começa com: __nomemetodo__
+exempo __len__
+len(nome) -> vai retornar o tamanho do nome
+
+parâmetro -> tudo o que está dentro dos parênteses de uma função
+
+função em python é def
+def calcular_frete(valor, quantidade)
+
+import math
+math.log10(1000)
+
+para importar algo específico:
+from math import log10
+log10(1000)
+
+import random as r
+#está renomeando random para r
+r.randrange(1,4000)
+#vai retornar um numero aleatorio entre 1 e 4000
+r.randrange(1, 1000, 2)
+# vai retornar um numero aleatorio entre 1 e 1000, de 2 em 2
+
+max() ->retorna o valor máximo, por exemplo, da lista
+
+def multiply(a,b):
+return print(a*b)
+
+multiply(2,3)
+->deverá trazer o resultado
+
+
+parâmetro: *args
+palavra reservada do python para receber um conjunto de dados, mais de um parâmetro
+ex: não precisa escrever parâmetro por parâmetro: valor1, valor2, valor3....
